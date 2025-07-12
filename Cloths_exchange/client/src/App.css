@@ -1,0 +1,36 @@
+.app {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: Arial, sans-serif;
+}
+
+.cardContainer {
+margin-top: 20px;
+width: 90vw;
+max-width: 260px;
+height: 500px;
+position: relative;
+}
+
+.swipe {
+position: absolute;
+}
+
+.card {
+position: relative;
+background-color: #fff;
+width: 100%;
+max-width: 260px;
+height: 400px;
+box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+padding: 20px;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+font-weight: bold;
+}
